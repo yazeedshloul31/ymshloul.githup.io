@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke; /* Light gray background */
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: teal; /* Dark teal background */
+    color: white; /* White text */
+}
+
+h1 {
+    color: darkslategray; /* Dark gray text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkslategray; /* Dark gray text */
+}
+
+section {
+    padding: 20px;
+}
+
+.contact-section {
+    background-color: lemonchiffon; /* Light yellow background */
+    color: dimgray; /* Dark gray text */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid lightgray; /* Light gray border */
+    padding: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: teal; /* Dark teal button */
+    color: white; /* White text */
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkslategray; /* Darker teal on hover */
+}
